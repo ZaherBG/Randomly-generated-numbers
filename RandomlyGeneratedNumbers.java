@@ -1,7 +1,4 @@
-
-package problem__4a4;
-
-public class Problem__4a4 {
+public class Random {
     public static void onesdigit(int a,int b){
         int r;
          r=Math.min(a,b)%10;
@@ -23,7 +20,6 @@ public class Problem__4a4 {
       a= (int) (10+Math.random() * 101);
       b=  (int) (10+Math.random() * 101);
         System.out.println("the randomly generated integers are "+a+" and "+b);
-        
        onesdigit(a,b);
         r=Math.min(a,b)%10;
         }while(r==0);
